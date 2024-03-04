@@ -19,8 +19,10 @@ const swap=()=>{
   
 
   return (
-    <div className="w-full h-screen flex flex-wrap justify-between">
-      <div className="flex bg-gray-700 w-[50%] justify-center items-center">
+    <div className="w-full h-screen flex flex-wrap justify-between relative">
+    
+      <div className="flex flex-col bg-gray-700 w-[50%] justify-center items-center">
+      <span className="text-white text-5xl p-10 text-sky-500">Convert at Real-time</span> 
         <div
           className="border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30"
           style={{
